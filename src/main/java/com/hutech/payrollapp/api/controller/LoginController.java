@@ -23,12 +23,12 @@ import com.hutech.payrollapp.api.serviceImpl.LoginService;
 
 
 @RestController
-@RequestMapping
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class LoginController {
 
 	
-	private static final @NotEmpty @Size(min = 8, message = "password should have at least 8 character") String String = null;
+	private static final @NotEmpty @Size(min = 8, message = "password should have at least 8 character") 
+	String String = null;
 
 	@Autowired
 	private AuthenticationManager authenticationManager;

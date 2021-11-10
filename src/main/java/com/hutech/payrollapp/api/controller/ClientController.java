@@ -14,7 +14,7 @@ import com.hutech.payrollapp.api.model.Employee;
 import com.hutech.payrollapp.api.service.ClientService;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ClientController {
 
 	@Autowired
